@@ -72,3 +72,11 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+#
+# Bash profile
+#
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.bash_profile" ]]; then
+  source "${ZDOTDIR:-$HOME}/.bash_profile"
+fi
