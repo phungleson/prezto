@@ -49,6 +49,9 @@ zstyle ':prezto:load' pmodule \
 # Set the key mapping style to 'emacs' or 'vi'.
 zstyle ':prezto:module:editor' key-bindings 'vi'
 
+# Use a more familiar key binding for backward search
+bindkey '^R' history-incremental-pattern-search-backward
+
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
 
