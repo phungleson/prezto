@@ -11,3 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Use a more familiar key binding for backward search
+bindkey '^R' history-incremental-pattern-search-backward
